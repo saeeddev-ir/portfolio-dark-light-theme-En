@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saeed Dev's Personal Blog</title>
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!--=============== google font ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body class="light-theme">
+    <!--==================== HEADER ====================-->
+    <header>
+      <div class="container">
+        <!--==================== navbar ====================-->
+
+        <nav class="navbar">
+          <a href="/" class="logo">Saeed <span>DEV</span></a>
+          <!--==================== btn-group ====================-->
+          <div class="btn-group">
+            <button class="theme-btn theme-btn-mobile light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+
+            <button class="nav-menu-btn">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="flex-wrapper">
+            <ul class="desktop-nav">
+              <li>
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+            <button class="theme-btn theme-btn-desktop light">
+              <ion-icon name="moon" class="moon"></ion-icon>
+              <ion-icon name="sunny" class="sun"></ion-icon>
+            </button>
+          </div>
+          <!--==================== mobile-nav ====================-->
+          <div class="mobile-nav">
+            <button class="nav-close-btn">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="wrapper">
+              <p class="h3 nav-title">Main Menu</p>
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <p class="h3 nav-title">Topics</p>
+              <ul>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">FrontEnd</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">SEO</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Web Performance</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!--==================== Hero ====================-->
+      <div class="hero">
+        <div class="container">
+          <div class="left">
+            <h1 class="h1">Hi, I'm <b>Saeed Dev</b>. <br />Web Developer</h1>
+            <p class="h3">Specialized in Front End Development</p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Contact Me</a>
+              <a href="#" class="btn btn-secondary">About Me</a>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="pattern-bg"></div>
+            <div class="img-box">
+              <img src="./assets/images/about.png" alt="" class="hero-img" />
+
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="container">
+          <!--==================== BLOG ====================-->
+          <div class="blog">
+            <h2 class="h2">Latest Blog Post</h2>
+
+            <div class="blog-card-group">
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-1.png"
+                    alt="landing page"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">landing page</button>
+                  <h3>
+                    <a href="#" class="h3">
+                      8 rules for designing the landing pages of websites
+                    </a>
+                  </h3>
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Vero reprehenderit laborum repellat quas exercitationem
+                    obcaecati! Fugit tempora cupiditate ea blanditiis dicta
+                    perferendis quibusdam nam inventore repellat esse laborum,
+                    at, optio repudiandae amet itaque qui omnis assumenda
+                    eligendi libero unde nostrum!
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img width="50" src="./assets/images/author.jpg" alt="" />
+                    </div>
+                    <div class="wrapper">
+                      <a href="#" class="h4">Saeed Dev</a>
+                      <p class="text-sm">
+                        <time datetime="2022-01-17">Jan 17, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-2.png"
+                    alt="Fast web page loading on a $20 feature phone"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Web Performance</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >Fast web page loading on a $20 feature phone</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Tempora sit minima aspernatur illo iusto non voluptas,
+                    recusandae veniam nesciunt fuga voluptatum illum voluptate,
+                    hic asperiores eum qui corrupti voluptates accusantium
+                    tempore! Dolores inventore quas non consequuntur possimus
+                    consequatur, doloribus voluptatum.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Saeed Dev"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Saeed Dev</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-12-10">Dec 10, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT2M">2 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-3.jpg"
+                    alt="the most essential SEO tips for developers"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">SEO</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >The most essential SEO tips for developers</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore quos dolorum at itaque odit facilis fuga porro ipsam
+                    laudantium vel, ipsa tenetur minima ratione pariatur
+                    excepturi! Praesentium, totam quis, ea tempore numquam
+                    doloribus dignissimos assumenda reprehenderit rerum corporis
+                    accusamus dolor?
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Saeed Dev"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Saeed Dev</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-28">Nov 28, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-4.png"
+                    alt="Dynamically Securing Databases using Hashicorp Vault"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >Dynamically Securing Databases using Hashicorp Vault</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum, minus doloribus pariatur voluptate adipisci
+                    voluptates quos odit in perspiciatis, sit error nulla earum
+                    praesentium sunt voluptatum assumenda? Iure fugit fuga,
+                    culpa a quia sunt. Porro laudantium deleniti accusamus
+                    officiis ut?
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Saeed Dev"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Saeed Dev</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-20">Nov 20, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-5.jpg"
+                    alt="a quick comparison between JavaScript and TypeScript"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">JavaScript</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >A quick comparison between JavaScript and TypeScript</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quibusdam, rem eaque hic corporis iste debitis soluta
+                    sapiente non. Maxime dolore aspernatur, distinctio quasi nam
+                    voluptatem, natus, ex quos quisquam voluptate aut porro
+                    doloremque eos voluptatum praesentium atque quia fugiat
+                    expedita.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Saeed Dev"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Saeed Dev</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-11-10">Nov 10, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-6.png"
+                    alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Accessibility</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >Don't Develop Just for Yourself - A Developer's Checklist
+                      to Accessibility</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptatibus ab impedit voluptate voluptatum non eveniet
+                    suscipit accusantium cumque minus ipsa earum nisi aut odio,
+                    facere debitis nemo nesciunt. Aliquam atque iusto iste
+                    possimus fuga. Quo ducimus nesciunt adipisci sapiente modi.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Saeed Dev"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Saeed Dev</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-10-25">Oct 25, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-7.png"
+                    alt="Building a Restful CRUD API with Node JS, Express, and MongoDB"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Database</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >Building a Restful CRUD API with Node JS, Express, and
+                      MongoDB</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eligendi eaque recusandae, alias dolorem id nihil esse porro
+                    quidem praesentium aperiam aspernatur totam. Quasi
+                    consequatur illum cumque excepturi porro debitis, vitae illo
+                    rem voluptate quo quidem accusantium deleniti, magnam
+                    dignissimos? Ut!
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Saeed Dev"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Saeed Dev</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-10-15">Oct 15, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">5 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-8.png"
+                    alt="Monitoring Performance with the PageSpeed Insights API"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Web Performance</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >Monitoring Performance with the PageSpeed Insights API</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                    accusantium quod quis? Nostrum veniam atque amet beatae
+                    temporibus natus sed quibusdam, illo laboriosam corporis
+                    quos, officia ullam deserunt quo minus placeat blanditiis
+                    iusto molestiae fuga fugiat aperiam! Nihil, reiciendis
+                    deleniti.
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Saeed Dev"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Saeed Dev</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-10-03">Oct 3, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">5 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-card">
+                <div class="blog-card-banner">
+                  <img
+                    src="./assets/images/blog-9.png"
+                    alt="The best web accessibility tools for developers in 2021"
+                    width="250"
+                    class="blog-banner-img"
+                  />
+                </div>
+
+                <div class="blog-content-wrapper">
+                  <button class="blog-topic text-tiny">Accessibility</button>
+
+                  <h3>
+                    <a href="" class="h3"
+                      >The best web accessibility tools for developers in
+                      2021</a
+                    >
+                  </h3>
+
+                  <p class="blog-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Tempore, veritatis iusto quidem sunt ratione ex nemo vitae
+                    quis, repudiandae itaque rerum ducimus molestias suscipit,
+                    natus accusantium? Unde illo vero consequuntur, ducimus
+                    nostrum beatae, quae vitae minima nisi iusto, repellat
+                    incidunt!
+                  </p>
+
+                  <div class="wrapper-flex">
+                    <div class="profile-wrapper">
+                      <img
+                        src="./assets/images/author.jpg"
+                        alt="Saeed Dev"
+                        width="50"
+                      />
+                    </div>
+
+                    <div class="wrapper">
+                      <a href="#" class="h4">Saeed Dev</a>
+
+                      <p class="text-sm">
+                        <time datetime="2021-09-13">Sep 13, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn load-more">Load More</button>
+          </div>
+
+          <!--=============== ASIDE ===============-->
+          <div class="aside">
+            <div class="topics">
+              <h2 class="h2">Topics</h2>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="desktop-outline"></ion-icon>
+                </div>
+                <p>FrontEnd</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="paper-plane-outline"></ion-icon>
+                </div>
+
+                <p>SEO</p>
+              </a>
+
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+
+                <p>Web Performance</p>
+              </a>
+            </div>
+
+            <div class="tags">
+              <h2 class="h2">Tags</h2>
+
+              <div class="wrapper">
+                <button class="hashtag">#database</button>
+                <button class="hashtag">#nodejs</button>
+                <button class="hashtag">#FrontEnd</button>
+                <button class="hashtag">#SEO</button>
+                <button class="hashtag">#coding</button>
+                <button class="hashtag">#web security</button>
+                <button class="hashtag">#optimize</button>
+                <button class="hashtag">#performance</button>
+              </div>
+            </div>
+
+            <div class="contact">
+              <h2 class="h2">Let's Talk</h2>
+
+              <div class="wrapper">
+                <p>
+                  Do you want to learn more about how I can help your company
+                  overcome problems? Let us have a conversation.
+                </p>
+                <ul class="social-link">
+                  <li>
+                    <a href="#" class="icon-box instagram">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="icon-box twitter">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="icon-box facebook">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="newsletter">
+              <h2 class="h2">Newsletter</h2>
+              <div class="wrapper">
+                <p>
+                  Subscribe to our newsletter to be among the first to keep up
+                  with the latest updates.
+                </p>
+                <form action="">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+
+                  <button type="submit" class="btn btn-primary">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--=============== Footer ===============-->
+    <footer>
+      <div class="container">
+        <div class="wrapper">
+          <a href="#" class="logo"> Saeed <span>DEV</span></a>
+          <p class="footer-text">Learn about UI/UX design, FrontEnd and AI</p>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Quick Access</p>
+
+          <ul>
+            <li>
+              <a href="#" class="footer-link">Hire me</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">About me</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="wrapper">
+          <p class="footer-title">Titles</p>
+
+          <ul>
+            <li>
+              <a href="#" class="footer-link">Portflio</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">CastBox</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Favorites</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="copyright">&copy; Copyright 2023 <a href="#">Saeed Dev</a></p>
+    </footer>
+
+    <!--=============== main script ===============-->
+    <script src="./assets/js/script.js"></script>
+
+    <!--=============== ionicon ===============-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
